@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{770F0902-6330-4CD2-B051-5C4C3E73EEE9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "V_gore", "V_gore\V_gore.csproj", "{6A75E2C8-8537-4606-B4D6-424AC135E5B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zamenjava_elementov", "Zamenjava_elementov\Zamenjava_elementov.csproj", "{689611C0-0677-49DD-A6A6-CC57A0C87790}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Album", "Album\Album.csproj", "{E33138B1-D4A1-467E-8D16-80F3669CA12D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "To_je_moja_datoteka", "To_je_moja_datoteka\To_je_moja_datoteka.csproj", "{2F8B16E0-633C-4137-B1EA-32B4FA6FB092}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datoteka_nakljucnih_stevil", "Datoteka_nakljucnih_stevil\Datoteka_nakljucnih_stevil.csproj", "{5363AF06-9FDC-47F0-A8D8-8B8466917BB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knjiznica", "Knjiznica\Knjiznica.csproj", "{2B8DC260-ADAE-4678-8F38-645494AD6FBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A75E2C8-8537-4606-B4D6-424AC135E5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A75E2C8-8537-4606-B4D6-424AC135E5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A75E2C8-8537-4606-B4D6-424AC135E5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A75E2C8-8537-4606-B4D6-424AC135E5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689611C0-0677-49DD-A6A6-CC57A0C87790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689611C0-0677-49DD-A6A6-CC57A0C87790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689611C0-0677-49DD-A6A6-CC57A0C87790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689611C0-0677-49DD-A6A6-CC57A0C87790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33138B1-D4A1-467E-8D16-80F3669CA12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33138B1-D4A1-467E-8D16-80F3669CA12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33138B1-D4A1-467E-8D16-80F3669CA12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33138B1-D4A1-467E-8D16-80F3669CA12D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F8B16E0-633C-4137-B1EA-32B4FA6FB092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F8B16E0-633C-4137-B1EA-32B4FA6FB092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F8B16E0-633C-4137-B1EA-32B4FA6FB092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F8B16E0-633C-4137-B1EA-32B4FA6FB092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5363AF06-9FDC-47F0-A8D8-8B8466917BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5363AF06-9FDC-47F0-A8D8-8B8466917BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5363AF06-9FDC-47F0-A8D8-8B8466917BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5363AF06-9FDC-47F0-A8D8-8B8466917BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B8DC260-ADAE-4678-8F38-645494AD6FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8DC260-ADAE-4678-8F38-645494AD6FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8DC260-ADAE-4678-8F38-645494AD6FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8DC260-ADAE-4678-8F38-645494AD6FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29D9708E-07EE-4CD3-9AD4-965F631D28FC}
+	EndGlobalSection
+EndGlobal
