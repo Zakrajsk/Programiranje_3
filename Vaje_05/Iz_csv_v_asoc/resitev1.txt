@@ -1,0 +1,3 @@
+(Ime, Marko), (Starost, 28), (Teza, 91)]
+(Ime, Neža), (Starost, 25), (Teza, 57)]
+(Ime, Vito), (Starost, 35), (Teza, 71)]

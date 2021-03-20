@@ -1,0 +1,4 @@
+Ime, Starost, Teza
+Marko, 28, 91
+Neža, 25, 57
+Vito, 35, 71
