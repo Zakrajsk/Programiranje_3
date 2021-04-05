@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Urejanje_objektov", "Urejanje_objektov\Urejanje_objektov.csproj", "{4E2975DF-AF16-43B1-BC17-A749507F6DA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bager", "Bager\Bager.csproj", "{2AAA9DE5-2287-46C3-973F-B213A7129981}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pikapolonica", "Pikapolonica\Pikapolonica.csproj", "{135198F8-746A-4FDE-806B-971995F4A64F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PikapolonicaTests", "PikapolonicaTests\PikapolonicaTests.csproj", "{757FC3CA-4E4B-45AD-A942-454A6505ADF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Levi_in_desni", "Levi_in_desni\Levi_in_desni.csproj", "{D1B1353C-08CC-47C0-A71E-AC443F717F0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stevec_klikov", "Stevec_klikov\Stevec_klikov.csproj", "{5DFB185E-CEF3-489C-B637-0F60799B604D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semafor", "Semafor\Semafor.csproj", "{D76BD75C-F27A-4682-AB7B-33C5D34C7F49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E2975DF-AF16-43B1-BC17-A749507F6DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2975DF-AF16-43B1-BC17-A749507F6DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2975DF-AF16-43B1-BC17-A749507F6DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2975DF-AF16-43B1-BC17-A749507F6DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AAA9DE5-2287-46C3-973F-B213A7129981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AAA9DE5-2287-46C3-973F-B213A7129981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AAA9DE5-2287-46C3-973F-B213A7129981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AAA9DE5-2287-46C3-973F-B213A7129981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135198F8-746A-4FDE-806B-971995F4A64F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135198F8-746A-4FDE-806B-971995F4A64F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135198F8-746A-4FDE-806B-971995F4A64F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135198F8-746A-4FDE-806B-971995F4A64F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{757FC3CA-4E4B-45AD-A942-454A6505ADF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757FC3CA-4E4B-45AD-A942-454A6505ADF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757FC3CA-4E4B-45AD-A942-454A6505ADF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757FC3CA-4E4B-45AD-A942-454A6505ADF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B1353C-08CC-47C0-A71E-AC443F717F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B1353C-08CC-47C0-A71E-AC443F717F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B1353C-08CC-47C0-A71E-AC443F717F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B1353C-08CC-47C0-A71E-AC443F717F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DFB185E-CEF3-489C-B637-0F60799B604D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DFB185E-CEF3-489C-B637-0F60799B604D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DFB185E-CEF3-489C-B637-0F60799B604D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DFB185E-CEF3-489C-B637-0F60799B604D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76BD75C-F27A-4682-AB7B-33C5D34C7F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76BD75C-F27A-4682-AB7B-33C5D34C7F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76BD75C-F27A-4682-AB7B-33C5D34C7F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76BD75C-F27A-4682-AB7B-33C5D34C7F49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A36EAF9-9BE5-4C61-A2D1-B0114C511C3A}
+	EndGlobalSection
+EndGlobal
