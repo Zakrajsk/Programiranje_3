@@ -17,7 +17,7 @@ namespace GUI_Nobel
 
         public BazaNobel()
         {
-            string niz_povezave = "Server= baza.fmf.uni-lj.si; User Id= student11; Password= student; Database= nobel2012;";
+            string niz_povezave = "PODATKI SKRITI ZARADI GESEL!  POGLEJ NA INTERNETU KAKO DOSTOPAS DO BAZE";
             this.povezava = new NpgsqlConnection(niz_povezave);
         }
 
