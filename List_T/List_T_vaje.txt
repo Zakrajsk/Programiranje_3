@@ -1,0 +1,95 @@
+Naloge iz List<T>
+
+Podano imate implementacijo razreda Vozilo(znamka, model, moč(KW)). V main funkciji je tudi že v naprej pripravljena
+tabela vozil. Vaša naloga je, da naredite vse spodnje naloge brez uporabo zank! (Lahko jo uporabiš za izpis)
+
+Poleg tega je podana tudi tabela_znamk, ki vsebuje vse znamke avtomobilov, ki so našteti.
+Imate pa tudi funkcijo IzpisLista<T>(list), ki vam izpiše elemente v listu vsakega v novo vrsto.
+
+1. Ustvari list<Vozilo> garaza, ki bo vseboval vsa vozila podana v tabeli_vozil.
+
+2. Za vsako znamko preštej koliko vozil je v garazi. (Napiši ustrezno vmesnik IEquals, lahko pa tudi drugače)
+   Za sprehod čez tabelo znamk lahko uporabiš zanko. 
+
+3. Vse fiate si prodal (izbriši) in kupil dva nova Audija A4 z 105 KW moči, poskrbi da se garaža ustrezno posodobi
+
+4. Šef želi spisek avtomobilov v garaži, zato mu ga izpiši. Uredi jih po moči naraščajoče. (Napiši ustrezni vmesnik Icomparable<Vozilo>)
+
+5. Z LINQ poizvedbo poišči vse avtomobile, ki imajo več kot 200KW moči. 
+
+6. Poglej, če imajo vsi avtomobili zadnjo števko pri moči enako 0 ali 5. Poizkusi z metodo TrueForAll
+
+7. Prodamo vse avtomobile, zato odstrani vse iz lista.
+
+8. (Če je še čas)Poizkusi uporabiti BinarySearch
+
+
+Implementacija-------------------------------------------------------------------------------------------------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace List_T_za_vaje
+{
+    class Vozilo
+    {
+        private string znamka;
+        private string model;
+        private int moc;
+
+        public Vozilo(string znamka, string model, int moc)
+        {
+            this.znamka = znamka;
+            this.model = model;
+            this.Moc = moc;
+        }
+
+        public string Znamka
+        {
+            get { return this.znamka; }
+        }
+
+        public string Model
+        {
+            get { return this.model; }
+        }
+
+        public int Moc
+        {
+            get { return this.moc; }
+            set
+            {
+                if (value < 0)
+                {
+                    throw new Exception("Moč ne more biti negativna.");
+                }
+                this.moc = value;
+            }
+        }
+
+        public override string ToString()
+        {
+            return $"{this.Znamka}: {this.Model} - {this.Moc}KW";
+        }
+
+    }
+    class Program
+    {
+
+        public static void IzpisLista<T>(List<T> list)
+        {
+            for (int i = 0; i < list.Count; i++)
+            {
+                Console.WriteLine($"{list[i]}");
+            }
+        }
+        
+            static void Main(string[] args)
+        {
+            string[] tabela_znamk = new string[] { "Peugeot", "Citroen", "Audi", "BMW", "Fiat", "Toyota", "Hyundai", "Opel" };
+            Vozilo[] vsa_vozila = new Vozilo[] { new Vozilo("Peugeot", "207", 75), new Vozilo("Citroen", "C3", 60), new Vozilo("Peugeot", "508", 155), new Vozilo("Hyundai", "i30N", 205), new Vozilo("Peugeot", "2008", 90), new Vozilo("Toyota", "Rav4", 150), new Vozilo("Citroen", "Picasso", 80), new Vozilo("Audi", "A4", 105), new Vozilo("BMW", "M4", 205), new Vozilo("Audi", "A1", 95), new Vozilo("Peugeot", "208", 110), new Vozilo("Hyundai", "i10", 40), new Vozilo("Peugeot", "Traveler", 110), new Vozilo("Toyota", "yarris", 55), new Vozilo("Audi", "RS4", 475), new Vozilo("BMW", "530GT", 220), new Vozilo("Hyundai", "i20", 90), new Vozilo("Peugeot", "206", 65), new Vozilo("Citroen", "C4", 75), new Vozilo("Audi", "Q8", 240), new Vozilo("Fiat", "Chroma", 110), new Vozilo("Fiat", "Punto", 45), new Vozilo("Opel", "Meriva", 90), new Vozilo("BMW", "i8", 600) };
+            
+        }
+    }
+}
