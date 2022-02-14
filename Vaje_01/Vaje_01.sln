@@ -3,19 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Popravi", "Popravi\Popravi.csproj", "{9D88E0E7-ABFE-422B-BB31-E5B0D38C75DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Popravi", "Popravi\Popravi.csproj", "{9D88E0E7-ABFE-422B-BB31-E5B0D38C75DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Obrati", "Obrati\Obrati.csproj", "{2E9920AA-2D16-4587-84A9-6CB8CDFC2170}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Obrati", "Obrati\Obrati.csproj", "{2E9920AA-2D16-4587-84A9-6CB8CDFC2170}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nakljucna_stevila", "Nakljucna_stevila\Nakljucna_stevila.csproj", "{728BBD0C-391D-46F3-9B75-8AE2691E0DE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nakljucna_stevila", "Nakljucna_stevila\Nakljucna_stevila.csproj", "{728BBD0C-391D-46F3-9B75-8AE2691E0DE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kattis-R2", "Kattis-R2\Kattis-R2.csproj", "{D7EE2916-B485-4AED-9738-EAEF7204FB55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kattis-R2", "Kattis-R2\Kattis-R2.csproj", "{D7EE2916-B485-4AED-9738-EAEF7204FB55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kattis-Aaah", "Kattis-Aaah\Kattis-Aaah.csproj", "{601C5D00-2A06-4A64-AAE2-6BA7136FD223}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kattis-Aaah", "Kattis-Aaah\Kattis-Aaah.csproj", "{601C5D00-2A06-4A64-AAE2-6BA7136FD223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kattis-Alphabet_spam", "Kattis-Alphabet_spam\Kattis-Alphabet_spam.csproj", "{E9B8B174-F507-45B5-BA08-53C826624A29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kattis-Alphabet_spam", "Kattis-Alphabet_spam\Kattis-Alphabet_spam.csproj", "{E9B8B174-F507-45B5-BA08-53C826624A29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Piton_na_obisku", "Piton_na_obisku\Piton_na_obisku.csproj", "{D8363A1D-1220-45A2-B053-2F725EFC346E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Piton_na_obisku", "Piton_na_obisku\Piton_na_obisku.csproj", "{D8363A1D-1220-45A2-B053-2F725EFC346E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kattis-ABC", "Kattis-ABC\Kattis-ABC.csproj", "{6C203737-D533-4F23-AAB1-46C290C86DF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kattis-Above_Average", "Kattis-Above_Average\Kattis-Above_Average.csproj", "{AFCBF78B-C2E6-4E53-A136-D9A819E7CEE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{D8363A1D-1220-45A2-B053-2F725EFC346E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8363A1D-1220-45A2-B053-2F725EFC346E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8363A1D-1220-45A2-B053-2F725EFC346E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C203737-D533-4F23-AAB1-46C290C86DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C203737-D533-4F23-AAB1-46C290C86DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C203737-D533-4F23-AAB1-46C290C86DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C203737-D533-4F23-AAB1-46C290C86DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFCBF78B-C2E6-4E53-A136-D9A819E7CEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFCBF78B-C2E6-4E53-A136-D9A819E7CEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFCBF78B-C2E6-4E53-A136-D9A819E7CEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFCBF78B-C2E6-4E53-A136-D9A819E7CEE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
