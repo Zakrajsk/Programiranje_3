@@ -2,7 +2,7 @@
 
 namespace Popravi
 {
-    class Program
+    class Popravi
     {
         static void Main(string[] args)
         {
