@@ -2,7 +2,7 @@
 
 namespace Obrati
 {
-    class Program
+    class Obrati
     {
         static void Main(string[] args)
         {

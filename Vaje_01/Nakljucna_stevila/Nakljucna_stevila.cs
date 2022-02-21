@@ -2,7 +2,7 @@
 
 namespace Nakljucna_stevila
 {
-    class Program
+    class Nakljucna_stevila
     {
         static void Main(string[] args)
         {
