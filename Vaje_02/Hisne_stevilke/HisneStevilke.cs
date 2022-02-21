@@ -2,7 +2,7 @@
 
 namespace Hisne_stevilke
 {
-    class Program
+    class HisneStevilke
     {
         /// <summary>
         /// Vrne tabelo kjer tab[i] predstavlja kolikokrat se stevilka i pojavi med stevkami med stevili od prva do zadnja

@@ -2,7 +2,7 @@
 
 namespace Pek
 {
-    class Program
+    class Pek
     {
         static void Main(string[] args)
         {

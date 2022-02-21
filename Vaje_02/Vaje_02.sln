@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pek", "Pek\Pek.csproj", "{872D2A6F-DAA9-453A-856A-291822A36AEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pek", "Pek\Pek.csproj", "{872D2A6F-DAA9-453A-856A-291822A36AEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Piton_na_obisku", "Piton_na_obisku\Piton_na_obisku.csproj", "{8287BCEC-55D3-477E-8847-92480856DCEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Piton_na_obisku", "Piton_na_obisku\Piton_na_obisku.csproj", "{8287BCEC-55D3-477E-8847-92480856DCEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presledki_in_besede", "Presledki_in_besede\Presledki_in_besede.csproj", "{CBE33544-F4B2-40AA-A055-DE2FA6F4C09F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presledki_in_besede", "Presledki_in_besede\Presledki_in_besede.csproj", "{CBE33544-F4B2-40AA-A055-DE2FA6F4C09F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hisne_stevilke", "Hisne_stevilke\Hisne_stevilke.csproj", "{324E9D89-DB9F-44FF-9816-12C40099C3B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hisne_stevilke", "Hisne_stevilke\Hisne_stevilke.csproj", "{324E9D89-DB9F-44FF-9816-12C40099C3B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsote", "Vsote\Vsote.csproj", "{8951E88C-272A-440D-9DE5-B7FAAABF1DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hammingova_razdalja", "Hammingova_razdalja\Hammingova_razdalja.csproj", "{E0A549C5-6B61-49A7-94EA-BDAE457E138A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tabela_nakljucnih_nizov", "Teza_niza\Tabela_nakljucnih_nizov.csproj", "{6A65A2AF-FF33-4CB0-90E2-112593274933}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{324E9D89-DB9F-44FF-9816-12C40099C3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{324E9D89-DB9F-44FF-9816-12C40099C3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{324E9D89-DB9F-44FF-9816-12C40099C3B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8951E88C-272A-440D-9DE5-B7FAAABF1DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8951E88C-272A-440D-9DE5-B7FAAABF1DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8951E88C-272A-440D-9DE5-B7FAAABF1DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8951E88C-272A-440D-9DE5-B7FAAABF1DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0A549C5-6B61-49A7-94EA-BDAE457E138A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A549C5-6B61-49A7-94EA-BDAE457E138A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A549C5-6B61-49A7-94EA-BDAE457E138A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A549C5-6B61-49A7-94EA-BDAE457E138A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A65A2AF-FF33-4CB0-90E2-112593274933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A65A2AF-FF33-4CB0-90E2-112593274933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A65A2AF-FF33-4CB0-90E2-112593274933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A65A2AF-FF33-4CB0-90E2-112593274933}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

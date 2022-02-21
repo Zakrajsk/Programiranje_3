@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Piton_na_obisku
 {
-    class Program
+    class PitonNaObisku
     {
 
         /// <summary>

@@ -2,7 +2,7 @@
 
 namespace Presledki_in_besede
 {
-    class Program
+    class PresledkiInBesede
     {
         /// <summary>
         /// Vrne niz, ki je enak nizu brez vseh presledkov
