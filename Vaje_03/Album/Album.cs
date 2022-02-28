@@ -2,7 +2,7 @@
 
 namespace Album
 {
-    class Program
+    class Album
     {
  
         /// <summary>

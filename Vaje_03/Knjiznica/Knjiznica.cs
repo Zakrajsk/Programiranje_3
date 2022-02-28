@@ -2,7 +2,7 @@
 
 namespace Knjiznica
 {
-    class Program
+    class Knjiznica
     {
         /// <summary>
         /// Vrne tabelo dolzine dolzina v katerih so stevila od 1 do max_meja

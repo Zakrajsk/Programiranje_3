@@ -3,7 +3,7 @@ using System.IO;
 
 namespace To_je_moja_datoteka
 {
-    class Program
+    class ToJeMojaDatoteka
     {
         static void Main(string[] args)
         {

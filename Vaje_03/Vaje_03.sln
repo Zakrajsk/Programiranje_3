@@ -18,7 +18,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "To_je_moja_datoteka", "To_j
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datoteka_nakljucnih_stevil", "Datoteka_nakljucnih_stevil\Datoteka_nakljucnih_stevil.csproj", "{5363AF06-9FDC-47F0-A8D8-8B8466917BB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knjiznica", "Knjiznica\Knjiznica.csproj", "{2B8DC260-ADAE-4678-8F38-645494AD6FBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Knjiznica", "Knjiznica\Knjiznica.csproj", "{2B8DC260-ADAE-4678-8F38-645494AD6FBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kattis-Judging_Troubles", "Kattis-Judging_Troubles\Kattis-Judging_Troubles.csproj", "{5E935433-58A0-464C-A35B-02C0296C92E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trojk_pa_ne", "Trojk_pa_ne\Trojk_pa_ne.csproj", "{620AC5D5-450A-46CD-A884-7C212F577340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prodaja_banan", "Prodaja_banan\Prodaja_banan.csproj", "{CFE44B9C-FF13-4A88-A628-AFF7AC128224}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +56,18 @@ Global
 		{2B8DC260-ADAE-4678-8F38-645494AD6FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B8DC260-ADAE-4678-8F38-645494AD6FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B8DC260-ADAE-4678-8F38-645494AD6FBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E935433-58A0-464C-A35B-02C0296C92E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E935433-58A0-464C-A35B-02C0296C92E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E935433-58A0-464C-A35B-02C0296C92E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E935433-58A0-464C-A35B-02C0296C92E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620AC5D5-450A-46CD-A884-7C212F577340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620AC5D5-450A-46CD-A884-7C212F577340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620AC5D5-450A-46CD-A884-7C212F577340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620AC5D5-450A-46CD-A884-7C212F577340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE44B9C-FF13-4A88-A628-AFF7AC128224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE44B9C-FF13-4A88-A628-AFF7AC128224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE44B9C-FF13-4A88-A628-AFF7AC128224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE44B9C-FF13-4A88-A628-AFF7AC128224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

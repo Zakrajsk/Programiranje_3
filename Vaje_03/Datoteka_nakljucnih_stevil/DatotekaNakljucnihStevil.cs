@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Datoteka_nakljucnih_stevil
 {
-    class Program
+    class DatotekaNakljucnihStevil
     {
         /// <summary>
         /// Ustavri datoteko z imenom kjer se v vrstici od 1 do maxvrstic pojavi od 1 do maxstevil stevilk ki imajo vrednost od 1 do maxvrednost

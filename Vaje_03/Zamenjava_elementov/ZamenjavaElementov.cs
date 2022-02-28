@@ -2,7 +2,7 @@
 
 namespace Zamenjava_elementov
 {
-    class Program
+    class ZamenjavaElementov
     {
         static int[] Kopija(int[] t)
         {
