@@ -29,7 +29,8 @@ namespace Prodaja_banan
             {
                 int dnevna_vsota = 0;
                 string[] podatki = bralec.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
-                for (int i = 0; i < podatki.Length; i++)
+                // i zacnemo steti pri 0, ce vrstica nima datuma spredaj drugace zacnemo steti z 1
+                for (int i = (podatki[0].Length == 10 && podatki[0][2] == '.')? 1 : 0 ; i < podatki.Length; i++)
                 {
                     dnevna_vsota += int.Parse(podatki[i]);
                 }

@@ -5,6 +5,20 @@ namespace Knjiznica
     class Knjiznica
     {
         /// <summary>
+        /// Podano tabelo spremeni tako, da je sedaj dvojne velikosti in pri tem ohrani obstoječe elemente.
+        /// </summary>
+        /// <param name="tabela"></param>
+        public static void PodvojiVelikost(ref int[] tabela)
+        {
+            int[] nova_tabela = new int[tabela.Length * 2];
+            for (int i = 0; i < tabela.Length; i++)
+            {
+                nova_tabela[i] = tabela[i];
+            }
+            tabela = nova_tabela;
+
+        }
+        /// <summary>
         /// Vrne tabelo dolzine dolzina v katerih so stevila od 1 do max_meja
         /// </summary>
         /// <param name="dolzina"></param>
@@ -56,6 +70,7 @@ namespace Knjiznica
         {
             int[] testna = NakljucnaTabela(10, 5);
 
+
             Console.WriteLine("Tabela spremenjena v niz: " + TabelaKotNiz(testna));
 
             Console.Write("Tabela zgenerirana iz niza: ");
@@ -65,7 +80,10 @@ namespace Knjiznica
             {
                 Console.Write(en + " ");
             }
-
+            Console.WriteLine("");
+            Console.WriteLine("Dolzina originalne tabele " + testna.Length + " in celotni izpis: " + TabelaKotNiz(testna));
+            Knjiznica.PodvojiVelikost(ref testna);
+            Console.WriteLine("Dolzina tabele po metodi PodvojiVelikost " + testna.Length + " in celotni izpis: " + TabelaKotNiz(testna));
 
         }
     }
