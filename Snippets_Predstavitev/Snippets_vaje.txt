@@ -1,0 +1,32 @@
+1. naloga
+Naredite XML datoteko, v katero boste shranjevali svoje snippete. Seveda, ji morate preimenovati končnico iz .xml na .snippet
+S pomočjo vzorcev naredite preprosti snippet, ki bo vseboval naslednje:
+
+V spremenljivko stevilka zapiše celo število (int), ki ga je uporabnik vnesel v konzolno okno.
+
+Poskusite ga nadgraditi tako, da bo možno ob uporabi snippeta spremeniti ime spremenljivke.
+Dodatno poskrbite, da bo dodan tudi snippet parameter, s katerim se bo spreminjal tip spremenljivke. (int ali double)
+
+Preizkusite uporabo snippet -> surround With in "ovijte" kodo, ki ste jo naredili z try, catch stavkom. Da poskrbimo, da bo
+uporabnik vnesel pravilna števila.
+
+
+2. naloga
+Ustvarite snippet, ki smo ga pogledali tudi med predstavitvijo in sicer, da nam generira kodo za izpis tabele.
+Lahko ste kreativni in spremenite, na kakšen način izpiše tabelo. (več stolpcev, poševno, ...)
+
+
+3. naloga
+Ustvarite snippet, ki bo tipa "surrond With" in sicer tako, da če označimo vrstice:
+
+int x = 10;
+int y = int.Parse(Console.ReadLine());
+int rez = x / y;
+
+da nam bo okoli teh ustvari try, catch stavek, ki bodo ujeli izjeme, ki se lahko zgodijo zaradi čudnega vnosa uporabnika.
+
+
+4. naloga
+Poskusite narediti kakšen lastni snippet. Naprimer takšnega, za katerega se vam zdi, da vam bo velikokrat prišel prav
+in vam s tem skrajšal čas pisanja. Na koncu lahko pokomentiramo, če se komu zdi kakšen snippet zelo uporaben.
+
