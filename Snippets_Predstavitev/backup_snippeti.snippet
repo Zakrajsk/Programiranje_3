@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Preberi niz</Title>
+			<Author>Gal Zakrajšek</Author>
+			<Description>Prebere niz in ga zapise v spremenljivko niz</Description>
+			<Shortcut>read</Shortcut>
+		</Header>
+		<Snippet>
+			<Code Language="CSharp">
+				<![CDATA[string niz = Console.ReadLine($selected$);]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Izpis tabele</Title>
+			<Author>Gal Zakrajšek</Author>
+			<Description>Izpise tabelo celih stevil v eno vrsto, kjer so elementi ločeni z podanim nizom</Description>
+			<Shortcut>izpistab</Shortcut>
+		</Header>
+		<Snippet>
+			<Code Language="CSharp">
+				<![CDATA[for (int i = 0; i < $ime_tabele$.Length; i++)
+            {
+                Console.Write($ime_tabele$[i] + (i + 1 < $ime_tabele$.Length? "$vmesni_niz$" : "\n"));
+            }]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>ime_tabele</ID>
+					<ToolTip>Podaj ime tabele za izpis</ToolTip>
+					<Default>tab</Default>
+				</Literal>
+				<Literal>
+					<ID>vmesni_niz</ID>
+					<ToolTip>Z katerim nizom bodo ločeni elementi</ToolTip>
+					<Default>\t</Default>
+				</Literal>
+			</Declarations>
+		</Snippet>
+	</CodeSnippet>
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Branje datoteke</Title>
+			<Author>Gal Zakrajšek</Author>
+			<Description>Ustvari spremenljivko in odpre datoteko za branje</Description>
+			<Shortcut>datread</Shortcut>
+		</Header>
+		<Snippet>
+			<Code Language="CSharp">
+				<![CDATA[StreamReader $ime_spremenljivke$ = File.OpenText("$pot_datoteke$");]]>
+			</Code>
+			<Declarations>
+				<Literal>
+					<ID>ime_spremenljivke</ID>
+					<ToolTip>Določi ime spremenljivke</ToolTip>
+					<Default>bralec</Default>
+				</Literal>
+				<Literal>
+					<ID>pot_datoteke</ID>
+					<ToolTip>Vstavi pot do datoteke za branje</ToolTip>
+					<Default>pot</Default>
+				</Literal>
+			</Declarations>
+			<Imports>
+				<Import>
+					<Namespace>System.IO</Namespace>
+				</Import>
+			</Imports>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
