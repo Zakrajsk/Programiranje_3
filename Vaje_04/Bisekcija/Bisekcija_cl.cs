@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Bisekcija
 {
-    class Program
+    class Bisekcija_cl
     {
         /// <summary>
         /// Genericna bisekcija, ki poisce in vrne na katerem indeksu je element. Če tega ni vrne -1
@@ -17,7 +17,7 @@ namespace Bisekcija
             int min = 0;
             int max = tabela.Length;
 
-            while (min <= max)
+            while (min < max)
             {
                 int sredina = (min + max) / 2;
                 if (tabela[sredina].CompareTo(iskan) == 0)
@@ -46,7 +46,9 @@ namespace Bisekcija
             Console.WriteLine(Bisekcija(test, 8));
             Console.WriteLine(Bisekcija(test, 1002));
             Console.WriteLine(Bisekcija(test_char, 'G'));
+            Console.WriteLine(Bisekcija(test_char, 'M'));
             Console.WriteLine(Bisekcija(test_string, "aua"));
+            Console.WriteLine(Bisekcija(test_string, "nop"));
         }
     }
 }

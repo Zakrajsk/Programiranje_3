@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Prozenje_napak_II
 {
-    class Program
+    class ProzenjeNapakII
     {
         public static List<int> IndeksiNajmanjsih<T>(T[] seznam) where T : IComparable
         {

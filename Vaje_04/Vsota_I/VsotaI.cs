@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace VsotaI
 {
-    class Program
+    class VsotaI
     {
         public static int Sestej(int a, int b)
         {

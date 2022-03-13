@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Min_max_II
 {
-    class Program
+    class MinMaxII
     {
         /// <summary>
         /// Vrne tabelo [najmanjsi, najvecji] element v podani tabeli. Stringe primerja po dolzini.

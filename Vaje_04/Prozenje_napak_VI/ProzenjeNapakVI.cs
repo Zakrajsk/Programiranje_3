@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Prozenje_napak_VI
 {
-    class Program
+    class ProzenjeNapakVI
     {
         public static bool PermutacijaPravilna(string[] vneseni,int n)
         {

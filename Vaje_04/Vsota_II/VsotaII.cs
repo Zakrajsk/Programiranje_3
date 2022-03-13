@@ -2,7 +2,7 @@
 
 namespace Vsota_II
 {
-    class Program
+    class VsotaII
     {
         public static string Sestej(string[] tabela)
         {

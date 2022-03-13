@@ -2,7 +2,7 @@
 
 namespace Dopolni_program_II
 {
-    class Program
+    class DopolniProgramII
     {
         /// <summary>
         /// Sprašuje uporabnika da vnese integer dokler ga ne vnese

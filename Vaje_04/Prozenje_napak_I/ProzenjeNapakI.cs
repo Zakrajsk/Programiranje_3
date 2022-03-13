@@ -2,7 +2,7 @@
 
 namespace Prozenje_napak_I
 {
-    class Program
+    class ProzenjeNapakI
     {
         static Random rng = new Random();
         /// <summary>

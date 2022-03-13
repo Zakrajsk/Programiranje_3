@@ -2,7 +2,7 @@
 
 namespace Min_max_I
 {
-    class Program
+    class MinMaxI
     {
         /// <summary>
         /// Vrne tabelo [najmanjsi,  najvecji] element

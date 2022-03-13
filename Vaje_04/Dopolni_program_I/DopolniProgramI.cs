@@ -2,7 +2,7 @@
 
 namespace Dopolni_programI
 {
-    class Program
+    class DopolniProgramI
     {
         static void Main(string[] args)
         {

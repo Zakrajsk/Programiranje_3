@@ -2,7 +2,7 @@
 
 namespace Lovljenje_napak_II
 {
-    class Program
+    class LovljenjeNapakII
     {
         /// <summary>
         /// Sprašuje uporabnika da vnese integer dokler ga ne vnese

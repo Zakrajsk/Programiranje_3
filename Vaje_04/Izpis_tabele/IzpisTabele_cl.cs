@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace Izpis_tabele
 {
 
-    class Program
+    class IzpisTabele_cl
     {
         /// <summary>
         /// Iz tabele izpise tabelo, kjer bo v vsaki vrsti n znakov locenih z nizom vmes
@@ -16,21 +16,26 @@ namespace Izpis_tabele
         /// <param name="vmes"></param>
         public static void IzpisTabele<T>(T[] tab, int n, string vmes)
         {
-            for (int i = 0; i < tab.Length; i++)
+            if (n != 0)
             {
-                if (i % n == 0)
+                for (int i = 0; i < tab.Length; i++)
                 {
-                    if (i != 0)
+                    if (i % n == 0)
                     {
-                        Console.WriteLine();
+                        if (i != 0)
+                        {
+                            Console.WriteLine();
+                        }
                     }
+                    else
+                    {
+                        Console.Write(vmes);
+                    }
+                    Console.Write(tab[i]);
                 }
-                else
-                {
-                    Console.Write(vmes);
-                }
-                Console.Write(tab[i]);
+
             }
+
             Console.WriteLine();
         }
 
@@ -41,8 +46,13 @@ namespace Izpis_tabele
             char[] test_char = new char[] { 'A', 'B', 'C', 'L', 'G', 'P' };
             bool[] test_bool = new bool[] { true, false, true, true, false, false, false, true, true };
             IzpisTabele(test, 5, " : ");
+            //Preizkus praznega izpisa
+            IzpisTabele(test, 0, " : ");
             IzpisTabele(test_char, 3, " : ");
+            IzpisTabele(test_char, 3, " locilo ");
             IzpisTabele(test_bool, 4, " : ");
+            //Izpis vsakega v svojo vrsto
+            IzpisTabele(test_bool, 1, " : ");
         }
     }
 }

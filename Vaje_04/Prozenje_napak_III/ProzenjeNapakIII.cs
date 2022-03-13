@@ -2,7 +2,7 @@
 
 namespace Prozenje_napak_III
 {
-    class Program
+    class ProzenjeNapakIII
     {
         /// <summary>
         /// Vrne tabelo dveh ničelj kvadratne funcije ax^2 + bx + c ali pa ustrezno izjemo

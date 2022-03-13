@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vsota_II", "Vsota_II\Vsota_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Min_max_II", "Min_max_II\Min_max_II.csproj", "{34A02084-1736-4A56-8B79-96C21C3BF9BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prozenje_napak_IV", "Prozenje_napak_IV\Prozenje_napak_IV.csproj", "{82E54D88-C0C5-4FB5-9428-E0D1B5AFC9DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prozenje_napak_IV", "Prozenje_napak_IV\Prozenje_napak_IV.csproj", "{82E54D88-C0C5-4FB5-9428-E0D1B5AFC9DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prozenje_napak_VI", "Prozenje_napak_VI\Prozenje_napak_VI.csproj", "{D68A24C8-6878-44DE-A01F-2ADD53405C57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prozenje_napak_VI", "Prozenje_napak_VI\Prozenje_napak_VI.csproj", "{D68A24C8-6878-44DE-A01F-2ADD53405C57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Izjeme_Liam", "Izjeme_Liam\Izjeme_Liam.csproj", "{969A7E85-C00F-49F0-9A41-0CA74314EB7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{D68A24C8-6878-44DE-A01F-2ADD53405C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D68A24C8-6878-44DE-A01F-2ADD53405C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D68A24C8-6878-44DE-A01F-2ADD53405C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{969A7E85-C00F-49F0-9A41-0CA74314EB7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969A7E85-C00F-49F0-9A41-0CA74314EB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969A7E85-C00F-49F0-9A41-0CA74314EB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969A7E85-C00F-49F0-9A41-0CA74314EB7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

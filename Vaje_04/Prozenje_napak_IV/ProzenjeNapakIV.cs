@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Prozenje_napak_IV
 {
-    class Program
+    class ProzenjeNapakIV
     {
 
         /// <summary>
