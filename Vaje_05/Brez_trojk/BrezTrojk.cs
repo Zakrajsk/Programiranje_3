@@ -2,13 +2,13 @@
 
 namespace Brez_trojk
 {
-    class Program
+    public class BrezTrojk
     {
         /// <summary>
         /// tabelo podano kot parameter spremeni tako, da iz nje odstrani vse trojke celotno število ali pa tudi samo števko v nekem drugem številu
         /// </summary>
         /// <param name="t"></param>
-        static void Krajsaj(ref int[] t)
+        public static void Krajsaj(ref int[] t)
         {
             int prazni = 0;
             for (int i = 0; i < t.Length; i++)// gremo skozi vsa števila v tabeli 
@@ -73,29 +73,6 @@ namespace Brez_trojk
 
         static void Main(string[] args)
         {
-            //Mesani primer
-            int[] tab1 = new int[] { 5, 33, 5123, 22, 3, 433};
-            Krajsaj(ref tab1);
-            int[] resitev1 = new int[] { 5, 512, 22, 4 };
-            Console.WriteLine("Preverjanje prvega testa:\t" + Testiraj(tab1, resitev1));
-
-            //Prazna tabela
-            int[] tab2 = new int[0];
-            Krajsaj(ref tab2);
-            int[] resitev2 = new int[0];
-            Console.WriteLine("Preverjanje drugega testa:\t" + Testiraj(tab2, resitev2));
-
-            //Brez trojk
-            int[] tab3 = new int[] { 5, 6, 9, 22, 2 };
-            Krajsaj(ref tab3);
-            int[] resitev3 = new int[] { 5, 6, 9, 22, 2 };
-            Console.WriteLine("Preverjanje tretjega testa:\t" + Testiraj(tab3, resitev3));
-
-            //Vsi elementi samo trojke
-            int[] tab4 = new int[] { 3, 33, 33, 3333, 3, 333 };
-            Krajsaj(ref tab4);
-            int[] resitev4 = new int[0];
-            Console.WriteLine("Preverjanje prvega testa:\t" + Testiraj(tab4, resitev4));
         }
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Stevke_so_delitelji
 {
-    class Program
+    class StevkeSoDelitelji
     {
         /// <summary>
         /// Vrne true ce vse stevke od stevila st delijo stevilo k

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Brez_oklepajev
 {
-    class Program
+    class BrezOklepajev_cl
     {
         /// <summary>
         /// Metoda iz vhodne datoteke prebera vrstice in jih zapisuje v izhodno pri tem spusti vse, kar je v napisano v oklepajih

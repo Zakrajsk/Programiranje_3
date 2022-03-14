@@ -2,7 +2,7 @@
 
 namespace Viva_la_difference
 {
-    class Program
+    class VivaLaDifference
     {
         /// <summary>
         /// Prebere dve stevili ki morata biti nenegativni in vrne njuno razliko

@@ -5,15 +5,19 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iz_csv_v_asoc", "Iz_csv_v_asoc\Iz_csv_v_asoc.csproj", "{96C6EC7F-4861-4C0E-96BD-2FB0780ADF75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vrni_Nti_element_deluxe", "Vrni_Nti_element_deluxe\Vrni_Nti_element_deluxe.csproj", "{6F2A5BD9-C896-45EA-AB3B-DB2617699BD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vrni_Nti_element_deluxe", "Vrni_Nti_element_deluxe\Vrni_Nti_element_deluxe.csproj", "{6F2A5BD9-C896-45EA-AB3B-DB2617699BD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brez_trojk", "Brez_trojk\Brez_trojk.csproj", "{B432B754-6EFB-4806-923A-D0AE411A4A2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brez_trojk", "Brez_trojk\Brez_trojk.csproj", "{B432B754-6EFB-4806-923A-D0AE411A4A2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brez_oklepajev", "Brez_oklepajev\Brez_oklepajev.csproj", "{8C4471A9-80B1-4B8F-8EF9-3A2A0265BEAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brez_oklepajev", "Brez_oklepajev\Brez_oklepajev.csproj", "{8C4471A9-80B1-4B8F-8EF9-3A2A0265BEAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stevke_so_delitelji", "Stevke_so_delitelji\Stevke_so_delitelji.csproj", "{1A62DD1B-2897-4986-BB03-DEF58227E5B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stevke_so_delitelji", "Stevke_so_delitelji\Stevke_so_delitelji.csproj", "{1A62DD1B-2897-4986-BB03-DEF58227E5B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viva_la_difference", "Viva_la_difference\Viva_la_difference.csproj", "{B02E8052-3F14-456D-8358-948BB0FD8C55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viva_la_difference", "Viva_la_difference\Viva_la_difference.csproj", "{B02E8052-3F14-456D-8358-948BB0FD8C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vrni_Nti_element_deluxeTests", "Vrni_Nti_element_deluxeTests\Vrni_Nti_element_deluxeTests.csproj", "{C2D4CDC2-7772-470C-B58E-5F4FDF7A7838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brez_trojkTests", "Brez_trojkTests\Brez_trojkTests.csproj", "{87BE504D-6BDB-42BC-966F-7930AD8358A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{B02E8052-3F14-456D-8358-948BB0FD8C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B02E8052-3F14-456D-8358-948BB0FD8C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B02E8052-3F14-456D-8358-948BB0FD8C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D4CDC2-7772-470C-B58E-5F4FDF7A7838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D4CDC2-7772-470C-B58E-5F4FDF7A7838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D4CDC2-7772-470C-B58E-5F4FDF7A7838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D4CDC2-7772-470C-B58E-5F4FDF7A7838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BE504D-6BDB-42BC-966F-7930AD8358A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BE504D-6BDB-42BC-966F-7930AD8358A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BE504D-6BDB-42BC-966F-7930AD8358A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BE504D-6BDB-42BC-966F-7930AD8358A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

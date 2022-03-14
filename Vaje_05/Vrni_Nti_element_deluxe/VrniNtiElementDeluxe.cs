@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Vrni_Nti_element_deluxe
 {
-    class Program
+    public class VrniNtiElementDeluxe
     {
 
         /// <summary>
@@ -25,7 +25,7 @@ namespace Vrni_Nti_element_deluxe
             }
             catch (Exception)
             {
-                throw new Exception($"{n}. elementa ni v tabeli");
+                throw new IndexOutOfRangeException($"{n}. elementa ni v tabeli");
             }
 
         }

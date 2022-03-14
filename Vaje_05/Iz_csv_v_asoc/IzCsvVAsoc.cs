@@ -4,7 +4,7 @@ using System.IO;
 
 namespace Vaje_5
 {
-    class Program
+    class IzCsvVAsoc
     {
         /// <summary>
         /// Vpiše podatek iz prve datoteke v drugo datotko, z drugačnim izpisom, namesto po stopkcih v vrsticah
