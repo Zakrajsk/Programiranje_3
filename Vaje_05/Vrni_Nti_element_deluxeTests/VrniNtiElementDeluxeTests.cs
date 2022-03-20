@@ -42,5 +42,13 @@ namespace Vrni_Nti_element_deluxe.Tests
             Action preveri = () => VrniNtiElementDeluxe.VrniNtiElement(blebetanje, -4); // sproži se izjema
             Assert.ThrowsException<IndexOutOfRangeException>(preveri);
         }
+
+        [TestMethod()]
+        public void ObArgumentuNic()
+        {
+            int[] tja = { 10, 20, 30 };
+            Action preveri = () => VrniNtiElementDeluxe.VrniNtiElement(tja, 0); // sproži se izjema
+            Assert.ThrowsException<IndexOutOfRangeException>(preveri);
+        }
     }
 }
