@@ -31,44 +31,7 @@ namespace Vrni_Nti_element_deluxe
         }
         static void Main(string[] args)
         {
-            string[] blebetanje = { "bla", "blo", "bli" };
-            
-            string niz1 = VrniNtiElement(blebetanje, 2); // dobimo "blo"
-            Console.WriteLine(niz1);
-            string niz2 = VrniNtiElement(blebetanje, -3); // dobimo "bla"
-            Console.WriteLine(niz2);
 
-            try
-            {
-                string niz3 = VrniNtiElement(blebetanje, -4); // sproži seizjema
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Pri VrniNtiElement(blebetanje, 2) se sprozi izjema: " + e);
-            }
-
-            int[] tja = { 10, 20, 30 };
-
-            int tam = VrniNtiElement(tja, 1); // dobimo 10
-            Console.WriteLine(tam);
-
-            try
-            {
-                int tu = VrniNtiElement(tja, 0); // sproži se izjema
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Pri VrniNtiElement(tja, 0) se sprozi izjema: " + e);
-            }
-
-            try
-            {
-                int tuk = VrniNtiElement(tja, 4); // sproži se izjema
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Pri VrniNtiElement(tja, 4) se sprozi izjema:" + e);
-            }
         }
     }
 }
