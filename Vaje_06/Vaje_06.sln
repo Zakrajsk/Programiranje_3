@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webclient_Tit", "Webclient_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitmap_Aljaz", "Bitmap_Aljaz\Bitmap_Aljaz.csproj", "{AB9E885B-4E09-4147-A683-D9567B1837C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kolo", "Kolo\Kolo.csproj", "{392D6BBD-EC2B-4ECB-B0DF-28578E023607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoTo_Switch_Anze", "GoTo_Switch_Anze\GoTo_Switch_Anze.csproj", "{7BE8E5FA-C1C1-4C40-BE92-DE494D548E7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{AB9E885B-4E09-4147-A683-D9567B1837C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB9E885B-4E09-4147-A683-D9567B1837C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB9E885B-4E09-4147-A683-D9567B1837C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392D6BBD-EC2B-4ECB-B0DF-28578E023607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392D6BBD-EC2B-4ECB-B0DF-28578E023607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392D6BBD-EC2B-4ECB-B0DF-28578E023607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392D6BBD-EC2B-4ECB-B0DF-28578E023607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE8E5FA-C1C1-4C40-BE92-DE494D548E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE8E5FA-C1C1-4C40-BE92-DE494D548E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE8E5FA-C1C1-4C40-BE92-DE494D548E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE8E5FA-C1C1-4C40-BE92-DE494D548E7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
