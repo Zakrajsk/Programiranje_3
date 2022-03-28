@@ -21,17 +21,24 @@ namespace Regularni_izrazi_Hana
             if(vzorec_gmail.Match(vnos).Success)
             {
                 Console.WriteLine("Vnesen je gmail racun");
+                return;
             }
 
             if (vzorec_str_fmf.Match(vnos).Success)
             {
                 Console.WriteLine("Vnesen je star fmf racun");
+                return;
             }
 
             if (vzorec_nov_fmf.Match(vnos).Success)
             {
                 Console.WriteLine("Vnesen je nov fmf racun");
+                return;
             }
+
+            Console.WriteLine("NISI VNESEL VELJAVNEGA EMAILA");
+
+
 
         }
     }
