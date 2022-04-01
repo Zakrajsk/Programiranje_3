@@ -1,0 +1,100 @@
+Azijski,M,17,3969
+Afriski savanjski,Z,28,2603
+Azijski,M,10,3593
+Afriski gozdni,Z,28,2351
+Afriski gozdni,M,21,4960
+Azijski,Z,31,2475
+Afriski gozdni,Z,11,2881
+Afriski savanjski,Z,6,2221
+Afriski savanjski,Z,18,2569
+Afriski gozdni,M,30,2781
+Afriski gozdni,Z,8,2206
+Afriski savanjski,Z,8,2194
+Afriski gozdni,Z,8,2637
+Afriski gozdni,Z,17,2100
+Afriski gozdni,Z,29,2003
+Afriski savanjski,Z,5,2357
+Afriski savanjski,Z,16,2966
+Afriski savanjski,M,8,5039
+Afriski gozdni,M,14,4736
+Azijski,Z,32,2950
+Azijski,M,22,4810
+Afriski gozdni,M,29,2725
+Afriski gozdni,M,5,3234
+Afriski gozdni,Z,23,2737
+Afriski gozdni,Z,32,2572
+Afriski gozdni,M,5,2699
+Afriski gozdni,M,15,5015
+Afriski savanjski,Z,26,2865
+Afriski savanjski,Z,8,2473
+Afriski savanjski,M,20,4776
+Afriski savanjski,M,20,4706
+Azijski,Z,17,2444
+Azijski,Z,12,2633
+Afriski savanjski,M,21,4427
+Afriski savanjski,Z,14,2691
+Afriski gozdni,Z,19,2909
+Azijski,M,13,4282
+Afriski savanjski,M,18,3796
+Afriski gozdni,M,17,2755
+Azijski,M,31,4395
+Afriski savanjski,Z,9,2033
+Afriski savanjski,M,8,4190
+Azijski,M,18,4564
+Azijski,Z,29,2317
+Afriski gozdni,Z,11,2031
+Afriski savanjski,Z,26,2695
+Azijski,Z,17,2717
+Afriski gozdni,M,8,4751
+Azijski,Z,34,2182
+Afriski savanjski,M,23,3956
+Azijski,Z,15,2340
+Afriski savanjski,Z,25,2398
+Azijski,M,12,2577
+Afriski savanjski,Z,9,2982
+Azijski,M,31,3972
+Afriski savanjski,M,26,4774
+Azijski,Z,10,2224
+Azijski,Z,23,2403
+Afriski gozdni,Z,34,2949
+Afriski savanjski,M,5,3824
+Afriski savanjski,M,19,4717
+Afriski gozdni,M,32,4506
+Afriski gozdni,Z,5,2267
+Azijski,M,31,4232
+Afriski gozdni,M,7,2754
+Afriski gozdni,M,21,4123
+Azijski,Z,5,2287
+Afriski gozdni,M,23,4578
+Azijski,M,20,4250
+Afriski gozdni,Z,25,2188
+Afriski gozdni,M,28,4762
+Azijski,M,30,5002
+Afriski savanjski,M,5,4803
+Afriski gozdni,Z,6,2585
+Afriski savanjski,Z,16,2329
+Afriski gozdni,Z,31,2221
+Afriski gozdni,M,30,2965
+Azijski,M,27,2680
+Azijski,Z,18,2073
+Afriski savanjski,Z,5,2143
+Afriski savanjski,M,20,3976
+Afriski gozdni,Z,19,2516
+Afriski gozdni,Z,11,2063
+Afriski gozdni,M,9,2562
+Afriski gozdni,Z,19,2402
+Afriski gozdni,Z,18,2555
+Afriski gozdni,Z,7,2428
+Azijski,Z,32,2796
+Afriski savanjski,M,14,5049
+Azijski,M,6,4218
+Afriski savanjski,M,30,4034
+Azijski,Z,22,2442
+Afriski savanjski,M,22,2749
+Afriski gozdni,Z,24,2334
+Afriski gozdni,Z,5,2215
+Afriski savanjski,M,6,3460
+Afriski savanjski,M,11,3171
+Afriski gozdni,M,32,2958
+Azijski,Z,25,2181
+Afriski gozdni,Z,21,2867

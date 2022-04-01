@@ -229,7 +229,7 @@ namespace Mehanizacija
         }
 
         /// <summary>
-        /// Vre bagre, ki so drazji od meje pocenimo za procent %
+        /// Vse bagre, ki so drazji od meje pocenimo za procent %
         /// </summary>
         /// <param name="tabela"></param>
         /// <param name="meja"></param>
