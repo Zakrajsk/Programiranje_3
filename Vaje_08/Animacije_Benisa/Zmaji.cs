@@ -50,15 +50,13 @@ namespace Animacija
             {
                 PictureBox picbox = new PictureBox();
                 picbox.SizeMode = PictureBoxSizeMode.StretchImage;
-                picbox.Image = Image.FromFile(@"U:\ZakrajsekGal\Programiranje_3\Vaje_08\Animacije_Benisa\bin\Debug\gif_diamant.gif");
-                picbox.Location = new Point(rng.Next(vel.Height), rng.Next(vel.Width));
-                picbox.Size = new Size(100, 100);
+                picbox.Image = Image.FromFile(@"..\..\gif_diamant.gif");
+                picbox.Location = new Point(rng.Next(vel.Width), rng.Next(vel.Height));
+                picbox.Size = new Size(25, 25);
                 //picbox.BackColor = Color.Black;
                 diamanti.Add(picbox);
 
                 this.Controls.Add(picbox);
-
-           
             }
 
         }
@@ -71,9 +69,32 @@ namespace Animacija
             zeleni_zmaj.Left += 2;
             zeleni_zmaj.Top += 1;
 
+            foreach (PictureBox en_diamant in diamanti)
+            {
+                if (en_diamant.Bounds.IntersectsWith(zeleni_zmaj.Bounds))
+                {
+                    lblDiamantiZelen.Text = "Diamanti zelenega: " + (int.Parse(lblDiamantiZelen.Text.Split(':')[1]) + 1);
+                    en_diamant.Location = new Point(-100, -100);
+                }
+                if (en_diamant.Bounds.IntersectsWith(rdeci_zmaj.Bounds))
+                {
+                    lblDiamantiRdec.Text = "Diamanti rdecega: " + (int.Parse(lblDiamantiRdec.Text.Split(':')[1]) + 1);
+                    en_diamant.Location = new Point(-100, -100);
+                }
+            }
+
             if (rdeci_zmaj.Bounds.IntersectsWith(zeleni_zmaj.Bounds))
             {
-                zeleni_zmaj.Hide();
+                int st_diam_zelen = int.Parse(lblDiamantiZelen.Text.Split(':')[1]);
+                int st_diam_rdec = int.Parse(lblDiamantiRdec.Text.Split(':')[1]);
+                if (st_diam_rdec > st_diam_zelen)
+                {
+                    zeleni_zmaj.Hide();
+                }
+                else
+                {
+                    rdeci_zmaj.Hide();
+                }
             }
         }
     }
