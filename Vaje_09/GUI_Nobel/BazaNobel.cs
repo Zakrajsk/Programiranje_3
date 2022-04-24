@@ -14,11 +14,19 @@ namespace GUI_Nobel
     class BazaNobel
     {
         NpgsqlConnection povezava;
+        Dictionary<string, string> prevodi = new Dictionary<string, string>();
 
         public BazaNobel()
         {
-            string niz_povezave = "PODATKI SKRITI ZARADI GESEL!  POGLEJ NA INTERNETU KAKO DOSTOPAS DO BAZE";
+            string niz_povezave = "Server= baza.fmf.uni-lj.si; User Id= student11; Password= student; Database= nobel2012;";
             this.povezava = new NpgsqlConnection(niz_povezave);
+
+            prevodi.Add("Medicine", "Medicina");
+            prevodi.Add("Chemistry", "Kemija");
+            prevodi.Add("Physics", "Fizika");
+            prevodi.Add("Economics", "Ekonomija");
+            prevodi.Add("Literature", "Literatura");
+            prevodi.Add("Peace", "Mir");
         }
 
         /// <summary>
@@ -39,10 +47,13 @@ namespace GUI_Nobel
             ukaz.CommandText = "SELECT DISTINCT subject FROM nobel";
             NpgsqlDataReader rezultat = ukaz.ExecuteReader();
 
+            string prevod;
             int i = 0;
             while (rezultat.Read())
             {
-                tabela_podrocij[i] = rezultat[0].ToString();
+                prevod = rezultat[0].ToString();
+                prevodi.TryGetValue(rezultat[0].ToString(), out prevod);
+                tabela_podrocij[i] = prevod;
                 i++;
             }
 
@@ -88,7 +99,18 @@ namespace GUI_Nobel
                 del_ukaza += del_ukaza != "" ? " AND subject = @Vrsta" : "subject = @Vrsta";
                 NpgsqlParameter par_vrsta = new NpgsqlParameter();
                 par_vrsta.ParameterName = "@Vrsta";
-                par_vrsta.Value = vrsta_nagrade;
+
+                //iskanje prevoda
+                string najden_prevod = "";
+                foreach (KeyValuePair<string, string> en in prevodi)
+                {
+                    if (en.Value == vrsta_nagrade)
+                    {
+                        najden_prevod = en.Key; 
+                    }
+                }
+
+                par_vrsta.Value = najden_prevod;
                 ukaz.Parameters.Add(par_vrsta);
             }
             string celoten_ukaz;
@@ -118,9 +140,11 @@ namespace GUI_Nobel
             NpgsqlDataReader rezultat = ukaz.ExecuteReader();
 
             int i = 0;
+            string prevod;
             while (rezultat.Read())
             {
-                tabela_nagrajencev[i] = $"{rezultat[2]} dobil za {rezultat[1]} leta: {rezultat[0]}";
+                prevod = prevodi[rezultat[1].ToString()];
+                tabela_nagrajencev[i] = $"{rezultat[2]} Področje: {prevod} Leta: {rezultat[0]}";
                 i++;
             }
 

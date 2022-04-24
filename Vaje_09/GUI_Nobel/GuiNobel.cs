@@ -32,6 +32,7 @@ namespace GUI_Nobel
             lbl_napaka_vnos.Visible = false;
             int zacetek = -1, konec = -1;
             string vrsta = (string) listbox_podrocja.SelectedItem;
+            listbox_podrocja.ClearSelected();
             if(vrsta == "")
             {
                 vrsta = null;
@@ -56,7 +57,6 @@ namespace GUI_Nobel
             {
                 listbox_nagrajenci.Items.AddRange(nagrajenci);
             }
-
         }
     }
 }
