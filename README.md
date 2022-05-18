@@ -24,7 +24,7 @@ Vaje in vse datoteke iz predmeta Programiranje 3
 - Unittests
 
 ### Vaje 06
--Razredi
+- Razredi
 
 ### Vaje 07
 - GUIs
