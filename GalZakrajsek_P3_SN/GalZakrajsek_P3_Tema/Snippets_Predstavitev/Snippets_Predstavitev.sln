@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{A37751F7-BA4C-4480-9C80-5F5C059A056D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Snippets", "Snippets", "{993DCE96-75E5-4CC8-BDE2-EFF09F2E9E66}"
+	ProjectSection(SolutionItems) = preProject
+		backup_snippeti.snippet = backup_snippeti.snippet
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A37751F7-BA4C-4480-9C80-5F5C059A056D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37751F7-BA4C-4480-9C80-5F5C059A056D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37751F7-BA4C-4480-9C80-5F5C059A056D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37751F7-BA4C-4480-9C80-5F5C059A056D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E248490-39DC-49CB-826C-2E85135BCEB6}
+	EndGlobalSection
+EndGlobal
