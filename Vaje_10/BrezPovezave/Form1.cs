@@ -12,7 +12,7 @@ namespace BrezPovezave
 {
     public partial class Form1 : Form
     {
-        private BazaNaprav baza = new BazaNaprav();
+        private BazaFilmov baza = new BazaFilmov();
         public Form1()
         {
             InitializeComponent();
@@ -32,7 +32,7 @@ namespace BrezPovezave
         /// <param name="e"></param>
         private void btn_dodaj_Click(object sender, EventArgs e)
         {
-            this.baza.NovFilm(tbx_naslov.Text);
+            this.baza.NovFilm(tbx_naslov.Text, tbx_leto.Text);
             
         }
     }

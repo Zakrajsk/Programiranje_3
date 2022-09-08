@@ -32,6 +32,7 @@ namespace BrezPovezave
             this.dgv_podatki = new System.Windows.Forms.DataGridView();
             this.tbx_naslov = new System.Windows.Forms.TextBox();
             this.btn_dodaj = new System.Windows.Forms.Button();
+            this.tbx_leto = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_podatki)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,7 +56,7 @@ namespace BrezPovezave
             // 
             // btn_dodaj
             // 
-            this.btn_dodaj.Location = new System.Drawing.Point(606, 78);
+            this.btn_dodaj.Location = new System.Drawing.Point(607, 131);
             this.btn_dodaj.Name = "btn_dodaj";
             this.btn_dodaj.Size = new System.Drawing.Size(111, 64);
             this.btn_dodaj.TabIndex = 3;
@@ -63,11 +64,20 @@ namespace BrezPovezave
             this.btn_dodaj.UseVisualStyleBackColor = true;
             this.btn_dodaj.Click += new System.EventHandler(this.btn_dodaj_Click);
             // 
+            // tbx_leto
+            // 
+            this.tbx_leto.Location = new System.Drawing.Point(592, 81);
+            this.tbx_leto.Name = "tbx_leto";
+            this.tbx_leto.Size = new System.Drawing.Size(149, 22);
+            this.tbx_leto.TabIndex = 4;
+            this.tbx_leto.Text = "Leto izdaje";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.tbx_leto);
             this.Controls.Add(this.btn_dodaj);
             this.Controls.Add(this.tbx_naslov);
             this.Controls.Add(this.dgv_podatki);
@@ -84,6 +94,7 @@ namespace BrezPovezave
         private System.Windows.Forms.DataGridView dgv_podatki;
         private System.Windows.Forms.TextBox tbx_naslov;
         private System.Windows.Forms.Button btn_dodaj;
+        private System.Windows.Forms.TextBox tbx_leto;
     }
 }
 

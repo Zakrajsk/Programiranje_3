@@ -8,7 +8,7 @@ using System.Data.SQLite;
 
 namespace BrezPovezave
 {
-    class BazaNaprav
+    class BazaFilmov
     {
         private string lokacija_baze = @"C:\Users\galza\Desktop\Faks\Programiranje_3\Vaje_10\BrezPovezave\filmi.sqlite";
         SQLiteDataAdapter data_adapter;
@@ -40,11 +40,12 @@ namespace BrezPovezave
         /// Dodamo nov film v bazo
         /// </summary>
         /// <param name="ime"></param>
-        public void NovFilm(string ime)
+        public void NovFilm(string ime, string leto)
         {
             //Dodajanje nove vrstice
             DataRow vrsta = ds.Tables[0].NewRow();
             vrsta["naslov"] = ime;
+            vrsta["leto"] = int.Parse(leto);
 
             ds.Tables[0].Rows.Add(vrsta);
         }
